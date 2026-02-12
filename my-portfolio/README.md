@@ -1,70 +1,90 @@
-# Mohammad Mahdi Mohammadi – Personal Portfolio
+# Mahdi Mohammadi – Personal Portfolio
 
-<div align="center">
-
-[![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue?logo=typescript&logoColor=white&style=flat-square)](https://www.typescriptlang.org/)
-[![React](https://img.shields.io/badge/React-Experienced-61DAFB?logo=react&logoColor=white&style=flat-square)](https://react.dev/)
-[![Node.js](https://img.shields.io/badge/Node.js-Used-success?logo=nodedotjs&logoColor=white&style=flat-square)](https://nodejs.org/)
-[![Computer Science Student](https://img.shields.io/badge/Computer%20Science-University%20Student-blueviolet?style=flat-square)](https://your-university-domain.edu)
-
-Github Link → **[https://github.com/mahdi2007apg/Personal-Portfolio-Website](https://github.com/mahdi2007apg/Personal-Portfolio-Website)**  
-
-</div>
-
-## 👋 Hi, I'm Mahdi
-
-I'm a **junior full-stack web developer** and **Computer Science undergraduate** passionate about building clean, user-friendly, and scalable web applications.  
-Currently studying at **Islamic Azad University, Science and Research**, expected graduation **October 2029**.
-
-I created this portfolio to:
-- showcase my projects, technical skills and learning journey
-- document completed courses & self-study achievements
-- clearly present my background and future goals (especially for educational immigration & scholarship applications)
-
-## 🌟 Featured Sections on the Website
-
-- **About Me** → background, interests, current status  
-- **Education** → university, major, relevant coursework, GPA (if good), exchange/study abroad plans  
-- **Skills** → full-stack technologies I'm comfortable with  
-- **Projects** → 3–6 best works with live demos & GitHub links  
-- **Courses & Certifications** → university courses + online certificates (Udemy, Coursera, freeCodeCamp, etc.)  
-- **Achievements** → hackathons, scholarships, dean’s list, contributions, awards  
-- **Goals** → short-term (internship, graduation) and long-term (master’s degree abroad, specialization in …)  
-- **Contact** → professional email, LinkedIn, (optional: Calendly for calls)
-
-## 🛠️ Tech Stack I Mainly Use
-
-**Frontend**  
-React · TypeScript · Tailwind CSS · Next.js · Redux / Zustand 
-
-**Backend**  
-Node.js · ExpressJS · PostgreSQL · MongoDB 
-
-**Tools & Others**  
-Git · GitHub · VS Code · Figma (UI basics)· Docker basics(learning) · Linux (Ubuntu)(learning)
-
-## 🎯 Current Goals (2026–2028)
-
-- Graduate with a strong GPA in Computer Science  
-- Secure a software development internship / junior position  
-- Prepare and apply for **Master’s programs abroad** in  Germany, Canada, Netherlands, Australia – Software Engineering, AI, Cyber security 
-- Build 2–3 high-quality open-source / public projects that solve real problems  
-- Improve English academic writing & prepare for IELTS/TOEFL if needed
+Minimalist personal website and digital portfolio built with Next.js, TypeScript and Tailwind CSS.
 
 
+## Current status (February 2026)
 
+Homepage (hero + about section) is live in its first version:
 
-## Learning Journey – Completed & In-progress Courses
+- Hero with name, title, short tagline and social links
+- About Me section highlighting:
+  - Computer Science studies
+  - Junior full-stack focus (Next.js, TypeScript, React, Tailwind, PostgreSQL, SQLAlchemy)
+  - Structured learning path toward Master's abroad
+  - Creative/hobby side (electronics, woodworking, music → future workshops & educational content)
 
-- **University (Science and Research Branch, IAU)**  
-   - Computer fundamentals and computer programming
-   - Java programming volume 1  
-   - Database Systems (in progress)
+UI heavily inspired by Brittany Chiang's portfolio (clean, dark-first aesthetic).
 
-- **Online / Self-study**  
-  - The Odin Project – Full Stack JavaScript Path (in progress)  
-  - freeCodeCamp – Responsive Web Design + JavaScript Algorithms  
-  - Udemy – [React – The Complete Guide by Maximilian Schwarzmüller]  
+## Tech stack (current)
+
+- Framework: Next.js 15+ (App Router)
+- Language: TypeScript
+- Styling: Tailwind CSS
+- Icons: Custom SVG components + Lucide (planned)
+- Deployment: Vercel
+
+## Next milestones – short-term roadmap
+
+These are the concrete next steps I'm actively working on (ordered by priority):
+
+1. **Make the site fully responsive**  
+   - Mobile-first adjustments  
+   - Proper desktop layout (wider content, better spacing, multi-column where appropriate)  
+   - Test on 320–1920px viewports
+
+2. **Add smooth subtle animations & micro-interactions**  
+   - Fade-in on scroll (Framer Motion)  
+   - Hover states on links, tags, cards  
+   - Entrance animations for sections (very restrained – no over-the-top effects)
+
+3. **Implement dark/light mode toggle**  
+   - Persistent theme preference (localStorage + system preference)  
+   - Using Zustand for theme state  
+   - Smooth transition between modes
+
+4. **Create the three main content pages/sections**  
+   - `/profession` → Projects & Development work  
+     (full-stack projects with screenshots, tech stack, GitHub & live links)  
+   - `/academia` → Studies, courses, certifications, achievements, academic goals  
+     (especially important for Master's applications abroad)  
+   - `/polymath` → Creative & making side  
+     (electronics builds, woodworking projects, music, future workshops & teaching plans)
+
+5. **Navigation & layout improvements**  
+   - Persistent top navigation (or sidebar on desktop) linking to the three main areas  
+   - Better typography scale & spacing system  
+   - Consistent section padding & max-width container
+
+6. **Polish & small quality-of-life additions**  
+   - Favicon + proper metadata (title, description, og:image)  
+   - Contact form (optional – using server actions or Formspree/Resend)  
+   - 404 page & basic error handling
+
+## Why this structure?
+
+The site is intentionally built around **three main cards/areas** after the hero:
+
+- **Profession** → shows I can build real full-stack applications  
+- **Academia** → documents serious, structured learning + clear Master's goals abroad  
+- **Polymath** → honestly represents creative hobbies & multi-dimensional interests
+
+This division helps different audiences quickly find what matters to them (recruiters, professors, immigration officers, collaborators, makers).
+
+## Contributing / Feedback
+
+This is a personal project, but I'm open to civil, constructive feedback — especially about:
+
+- accessibility (contrast, semantics, screen reader experience)
+- UX on mobile
+- clarity of the immigration/academic narrative
+
+Feel free to open an issue if you spot something broken or have suggestions.
+
+---
+
+Made with ❤️ & lots of coffee  
+Last meaningfully updated: February 2026
 
 
 ## 📬 Get in Touch
@@ -73,11 +93,3 @@ Git · GitHub · VS Code · Figma (UI basics)· Docker basics(learning) · Linux
 📧 Email → [mahdimohammadiapg@gmail.com](mailto:mahdimohammadiapg@gmail.com)  
 🐙 GitHub → [@mahdi2007apg](https://github.com/mahdi2007apg)  
 📞 Mobile → [+989192371955](tel:+989192371955)
-
-
-> Open to internships, junior positions, study-abroad recommendations, and interesting collaborations!
-
----
-
-Made with ❤️ & ☕  
-Last updated: January 31, 2026

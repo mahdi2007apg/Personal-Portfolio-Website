@@ -3,9 +3,11 @@
 
 @custom-variant dark (&:is(.dark *));
 
-@theme inline {
+@theme {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-secondTitle: var(--secondTitle);
+  --color-thirdTitle: var(--thirdTitle);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --color-sidebar-ring: var(--sidebar-ring);
@@ -48,8 +50,10 @@
 
 :root {
   --radius: 0.625rem;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.141 0.005 285.823);
+  --background: oklch(20.48% 0.042 259.24);
+  --foreground: oklch(88.53% 0.000 0);
+  --secondTitle: oklch(85.646% 0.01599 248.158);
+  --thirdTitle: oklch(71.80% 0.012 264.49);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.141 0.005 285.823);
   --popover: oklch(1 0 0);
